@@ -13,5 +13,6 @@ int main()
         else should_separate = true;
         printf("%02x", (unsigned char)character);
     }
+    printf("\n");
     return 0;
 }
