@@ -3,6 +3,8 @@ build: build/chrtox
 clean:
 	rm -rf build/
 rebuild: clean build
+install: build/chrtox
+	cp build/chrtox /bin/chrtox
 
 build/:
 	mkdir $@
